@@ -22,7 +22,7 @@ const Update = () => {
             .then(data => {
                 console.log(data);
                 if (data.modifiedCount > 0) {
-                    alert('user updated successfully')
+                    alert('User updated successfully');
                 }
             })
     }
